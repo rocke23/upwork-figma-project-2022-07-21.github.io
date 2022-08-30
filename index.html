@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webstudio </title>
+    <link rel="stylesheet" href="source_files/style.css">
+    <link href="source_files/css2" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h3><span style="color:blue">Web</span>studio</h3>
+                </div>
+                <nav>
+                    <ul id="MenuItems" style="max-height: 0px;">
+                        <li><a href="#">Студия</a></li>
+                        <li><a href="#">Портфолио</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#" class="marlef">info@devstudio.com</a></li>
+                        <li><a href="#">+38 096 111 11 11</a></li>
+                    </ul>
+                </nav>
+                <img src="source_files/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+<!--  -->
+<div style="background-color: #2f303a;">
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+            <h1 style="color:#f5f4fa;">Эффективные решения для вашего бизнеса</h1>
+            <p></p>
+            <a href="" class="btn">Заказать услугу</a>
+        </div>
+    </div>
+</div>
+</div>
+<!--  -->
+<div class="small-container" style="margin-top: 74px;">
+    <div class="row">                
+        <div class="col-4">
+            <h4>Внимание к деталям</h4>
+            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        </div>
+        <div class="col-4">
+            <h4>Пунктуальность</h4>
+            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+        </div>
+        <div class="col-4">
+            <h4>Планирование</h4>
+            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+        </div>
+        <div class="col-4">
+            <h4>Современные технологии</h4>
+            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+        </div>
+    </div>        
+</div>
+<!--  -->
+    <!-- featured categories -->
+    <div class="categories" id="categories">
+        <div class="small-container">
+            <h2 class="title">Чем мы занимаемся</h2>
+            <div class="row">
+                <div class="col-3">
+                    <a href=""><img src="source_files/t1.png"></a>
+                </div>
+                <div class="col-3">
+                    <a href=""><img src="source_files/t2.png"></a>
+                </div>
+                <div class="col-3">                    
+                    <a href=""><img src="source_files/t3.png"></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Featured products -->
+<div style="background-color: #f5f4fa;">
+    <div class="small-container" id="featured">
+        <h2 class="title">Наша команда</h2>
+        <div class="row">                
+            <div class="col-4">
+                <a href="#">
+                <img src="source_files/team  1.png">
+                <h4>Игорь Демьяненко</h4>
+                <p>Product Designer</p></a>
+            </div>            
+            <div class="col-4">
+                <a href="#">
+                <img src="source_files/team  2.png">
+                <h4>Ольга Репина</h4>
+                <p>Frontend Developer</p></a>
+            </div>            
+            <div class="col-4">
+                <a href="#">
+                <img src="source_files/team  3.png">
+                <h4>Николай Тарасов</h4>
+                <p>Marketing</p></a>
+            </div>            
+            <div class="col-4">
+                <a href="#">
+                <img src="source_files/team  4.png">
+                <h4>Михаил Ермаков</h4>
+                <p>UI Designer</p></a>
+            </div>            
+        </div>        
+    </div>
+</div>
+    <!-- ---------footer---------->
+<div class="d2f" style="margin-top: 0px;text-align: left;background: #2f303a;
+">
+<div class="footer-col-3 ">
+    <h3><span style="color:blue">Web</span>studio</h3>
+    <ul>
+        <li>г. Киев, пр-т Леси Украинки, 26</li>
+        <li>info@example.com</li>
+        <li>+38 099 111 11 11</li>
+    </ul>
+</div>
+</div>
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px")
+            {  MenuItems.style.maxHeight = "200px";
+            }else{
+                MenuItems.style.maxHeight = "0px"
+            };
+        }
+    </script>
+
+</body></html>
